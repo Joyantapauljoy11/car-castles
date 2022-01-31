@@ -1,3 +1,4 @@
+// @ts-nocheck
 import React, { useState, useEffect } from 'react';
 import { Container, Row } from 'react-bootstrap';
 import { AiFillCloseCircle } from "react-icons/ai";
@@ -21,7 +22,7 @@ const MyOrder = () => {
     const deleteBtn = id => {
         const confirm = window.confirm('Are you sure to cancel this order? Think again...')
         if (confirm) {
-            fetch(`https://frozen-bayou-91058.herokuapp.com/order/${id}`, {
+            fetch(`http://localhost:7000/order/${id}`, {
                 method: 'DELETE'
             }).then(res => res.json())
                 .then(data => {

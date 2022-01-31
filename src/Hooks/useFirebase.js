@@ -1,3 +1,5 @@
+// @ts-nocheck
+
 import initAuth from "../Firebase/init";
 import { GoogleAuthProvider, signInWithPopup, onAuthStateChanged, signOut, createUserWithEmailAndPassword, updateProfile, signInWithEmailAndPassword } from "firebase/auth";
 import { getAuth } from "firebase/auth";

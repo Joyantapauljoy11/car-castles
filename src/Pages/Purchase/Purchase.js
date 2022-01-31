@@ -1,3 +1,6 @@
+// @ts-nocheck
+
+
 import React, { useEffect, useState } from 'react';
 import { Card, Container } from 'react-bootstrap';
 import { useForm } from 'react-hook-form';
