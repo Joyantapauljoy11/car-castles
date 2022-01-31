@@ -15,8 +15,8 @@ const Products = () => {
         <div className="py-5">
             <Container>
                 <div className="w-100 mx-auto">
-                    <h3 className="text-center">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint maiores, autem facere expedita quaerat eos.</h3>
-                    <p className="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda rem id doloremque quos doloribus cum exercitationem odio, voluptatibus sit consectetur ut maiores nemo ipsum iure.</p>
+                    <h3 className="text-center">Everything in life is somewhere else, and you get there in a car.</h3>
+                    <p className="text-center">It's a never ending battle of making your cars better and also trying to be better yourself. ...</p>
                 </div>
                 {
                     products.length ? <Row xs={1} md={3} className="g-4">
