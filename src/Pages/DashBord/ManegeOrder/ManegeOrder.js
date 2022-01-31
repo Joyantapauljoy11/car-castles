@@ -1,7 +1,7 @@
 // @ts-nocheck
 
 import React, { useState, useEffect } from 'react';
-import { Col, Container, Row } from 'react-bootstrap';
+import { Container } from 'react-bootstrap';
 const ManegeOrder = () => {
     const [allOrders, setAllOrders] = useState([])
 

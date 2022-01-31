@@ -22,6 +22,7 @@ const TopBanner = () => {
                     style={{ height: '80vh', objectFit: 'cover' }}
                     className="d-block w-100"
                     src="https://i.ibb.co/yVH6Gj1/6-67532-beautiful-car-wallpaper-hd.jpg "
+                    alt="second slide"
                 />
 
                 <Carousel.Caption>

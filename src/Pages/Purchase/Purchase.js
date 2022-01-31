@@ -37,7 +37,7 @@ const Purchase = () => {
         fetch(`https://frozen-bayou-91058.herokuapp.com/products/${id}`)
             .then(res => res.json())
             .then(data => setSingleItem(data))
-    }, [])
+    }, [id])
 
 
 
